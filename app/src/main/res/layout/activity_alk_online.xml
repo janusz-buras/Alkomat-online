@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8A1A1"
+    tools:context=".AlkOnline">
+
+    <EditText
+        android:id="@+id/osVolume"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/osPercent"
+        app:layout_constraintStart_toEndOf="@+id/osPercent" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/osVolume"
+        app:layout_constraintStart_toEndOf="@+id/osVolume" />
+
+    <EditText
+        android:id="@+id/osPercent"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintBottom_toBottomOf="@+id/osVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Inne"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/wyVolume"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/wyVolume"
+        app:layout_constraintStart_toEndOf="@+id/wyVolume" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/wyVolume"
+        app:layout_constraintStart_toEndOf="@+id/wyVolume" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/wyPercent"
+        app:layout_constraintStart_toEndOf="@+id/wyPercent" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/wyPercent"
+        app:layout_constraintStart_toEndOf="@+id/wyPercent" />
+
+    <EditText
+        android:id="@+id/wyPercent"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintBottom_toBottomOf="@+id/wyVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <EditText
+        android:id="@+id/weVolume"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="125"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/wePercent"
+        app:layout_constraintStart_toEndOf="@+id/wePercent" />
+
+    <EditText
+        android:id="@+id/wePercent"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="12"
+        app:layout_constraintBottom_toBottomOf="@+id/weVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/wePercent"
+        app:layout_constraintStart_toEndOf="@+id/wePercent" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/weVolume"
+        app:layout_constraintStart_toEndOf="@+id/weVolume" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/weVolume"
+        app:layout_constraintStart_toEndOf="@+id/weVolume" />
+
+    <EditText
+        android:id="@+id/vaVolume"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/vaPercent"
+        app:layout_constraintStart_toEndOf="@+id/vaPercent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintStart_toEndOf="@+id/vaVolume" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintStart_toEndOf="@+id/vaVolume" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintStart_toEndOf="@+id/vaVolume" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/vaPercent"
+        app:layout_constraintStart_toEndOf="@+id/vaPercent" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/vaPercent"
+        app:layout_constraintStart_toEndOf="@+id/vaPercent" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/vaPercent"
+        app:layout_constraintStart_toEndOf="@+id/vaPercent" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintStart_toEndOf="@+id/vaVolume" />
+
+    <EditText
+        android:id="@+id/vaPercent"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ml"
+        app:layout_constraintBottom_toBottomOf="@+id/vaVolume"
+        app:layout_constraintStart_toEndOf="@+id/vaVolume" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="410dp"
+        android:layout_height="27dp"
+        android:background="#49AA4C"
+        android:shadowColor="#000000"
+        android:text="        Po spożyciu kliknij alkohol, który wypiłeś."
+        android:textColor="#F6F5F5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Piwo"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Wódka"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="Wino"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Whisky"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buFinish"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Zakończ Imprezę"
+        app:backgroundTint="#FF0101"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buCount"
+        android:layout_width="171dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="92dp"
+        android:text="OBLICZ"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buFinish"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/buBeer"
+        android:layout_width="70dp"
+        android:layout_height="77dp"
+        android:background="#A8A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:srcCompat="@drawable/piwo" />
+
+    <ImageButton
+        android:id="@+id/buVodka"
+        android:layout_width="68dp"
+        android:layout_height="80dp"
+        android:background="#A8A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView28"
+        app:srcCompat="@drawable/wodka" />
+
+    <ImageButton
+        android:id="@+id/buWine"
+        android:layout_width="71dp"
+        android:layout_height="84dp"
+        android:background="#A8A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView33"
+        app:srcCompat="@drawable/wino" />
+
+    <ImageButton
+        android:id="@+id/buWhisky"
+        android:layout_width="70dp"
+        android:layout_height="86dp"
+        android:background="#A8A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView37"
+        app:srcCompat="@drawable/whisky" />
+
+    <ImageButton
+        android:id="@+id/buOthers"
+        android:layout_width="69dp"
+        android:layout_height="80dp"
+        android:background="#A8A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView38"
+        app:srcCompat="@drawable/inne" />
+
+    <EditText
+        android:id="@+id/brVolume"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <EditText
+        android:id="@+id/brPercent"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="5.2"
+        app:layout_constraintBottom_toBottomOf="@+id/brVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="%"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/brPercent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ml"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/brVolume"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

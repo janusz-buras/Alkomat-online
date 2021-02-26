@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_secondary_variant"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="4pt"
+        android:background="@color/grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hPartyName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2pt"
+                android:text="Nazwa imprezy"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buIsFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KONIEC"
+                app:backgroundTint="#C60B0B" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5pt"
+                android:text="Rozpoczęcie imprezy:  " />
+
+            <TextView
+                android:id="@+id/hStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="24.12.2020 12:30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5pt"
+                android:text="Wypito " />
+
+            <TextView
+                android:id="@+id/hPureAlcohol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="160" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" ml czystego alkoholu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5pt"
+                android:text="Szczytowa wartość promili " />
+
+            <TextView
+                android:id="@+id/hPromiles"
+                android:layout_width="0.1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="1.94" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="‰" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5pt"
+                android:text="Koniec Imprezy: " />
+
+            <TextView
+                android:id="@+id/hFinishDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25.12.2020 02:10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5pt"
+                android:text="Trzeźwość absolutna: " />
+
+            <TextView
+                android:id="@+id/hSobriety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25.12.2020 13:30" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

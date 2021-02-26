@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D7D7"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".AlkOfline">
+
+    <EditText
+        android:id="@+id/weightTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Waga w kilogramach"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="109dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:text="Płeć:"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="Wypity alkohol:"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="384dp"
+        android:text="ml"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="328dp"
+        android:text="ml"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="57dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="324dp"
+        android:text="Wódka"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="324dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="488dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="49dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="264dp"
+        android:text="Piwo"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/vodkaVolume"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="316dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/wineVolume"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="68dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="436dp"
+        android:text="Whisky"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/vodkaPercent"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="316dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="49dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="488dp"
+        android:text="Inne"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/beerPercent"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/whiskyVolume"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="428dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="264dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/othersPercent"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/winePercent"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="10"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/othersVolume"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="492dp"
+        android:text="ml"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="440dp"
+        android:text="ml"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/whiskyPercent"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="428dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="40"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="268dp"
+        android:text="ml"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="436dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="57dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="380dp"
+        android:text="Wino"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="380dp"
+        android:text="%"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/beerVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/beerVolume"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="0"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="172dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="144dp"
+        android:text="Godzina rozpoczęcia:"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/finishHour"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:hint="01:45"
+        android:inputType="time"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="176dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="184dp"
+        android:text="Godzina zakończenia:"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/startHour"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:hint="22:20"
+        android:inputType="time"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buWoman"
+        android:layout_width="129dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="80dp"
+        android:text="KOBIETA"
+        android:textColor="#433D3D"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buMan"
+        android:layout_width="129dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="MĘŻCZYZNA"
+        android:textColor="#433D3D"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buScore"
+        android:layout_width="124dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="64dp"
+        android:text="OBLICZ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whiskyVolume" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
